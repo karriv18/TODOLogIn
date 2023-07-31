@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="sign-up">
+  <div class="first-sec">
+  <img src="../static/todoLogo.png" alt="waley" class="sign-logo">
+</div>
+  <form class="sign-up-form" action="/signup" method="post">
+    <input id="input" type="text" placeholder="First Name" name="fname"><br>
+    <input id="input" type="text" placeholder="Middle Name" name="mname"><br>
+    <input id="input" type="text" placeholder="Last Name" name="lname"><br>
+    <input id="input" type="text" placeholder="Email" name="email"><br>
+    <input id="input" type="password" placeholder="Password" name="pass"><br>
+    <button id="submit" type="submit">Sign Up</button>
+  </form>
+</div>
+{% endblock %}

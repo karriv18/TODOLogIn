@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="body">
+  <nav class="todo-sec-one">
+  TODO
+  </nav>
+<div class="todo">
+  <form class="todo-form" action="/add" method="post">
+    <input class="todo-in" type="text" placeholder="Add" name="todo">
+    <input class="todo-sub" type="submit" value="+">
+  </form>
+</div>
+<table>
+  <tr>
+    <th>Task</th>
+  </tr>
+  {% for res in result: %}
+  <tr>
+    <td class="task">{{ res["task"] }}</td>
+    <td class="del-task">
+      <form action="/delete" method="get">
+        <input name="id" type="hidden" value="{{ res["todo_id"] }}"  >
+        <button class="delete-btn"type="submit">Done</button>
+      </form>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+<form action="/logout" method="post">
+  <input class="logout" type="submit" value="Log out">
+</form>
+
+</div>
+{% endblock %}
