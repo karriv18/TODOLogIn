@@ -1,0 +1,201 @@
+/* For signin.html */
+body{
+  background-color: rgb(216, 216, 238);
+  font-family: roboto;
+}
+.sign_in{
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  height: 300px;
+  width: 600px;
+  position: relative;
+  top: 200px;
+  left: 400px;
+  padding: 50px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.first-sec{
+  display: grid;
+  justify-content: start;
+  align-items: start;
+  width: 200px;
+}
+.second-sec{
+  display: grid;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  top: 0px;
+}
+.login-form{
+  padding-bottom: 20px;
+}
+.first-sec-sec, .login-form{
+  display: grid;
+}
+.email, .password{
+  padding: 8px;
+  margin: 8px;
+  border-style: solid;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.login-btn, .create-btn, #submit, .logout, .delete-btn{
+  margin: 8px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  height: 36px;
+  transition: opacity 0.15s;
+}
+.login-btn, #submit, .todo-sub, .delete-btn{
+  background-color: rgb(77, 119, 235);
+  color: white;
+}
+.create-btn:hover, .login-btn:hover, #submit:hover, .logout:hover, .delete-btn:hover{
+  opacity: 0.8;
+}
+.logo{
+  position: absolute;
+  top: 50px;
+  height: 200px;
+  margin-top: 60px;
+  top: 50px;
+  
+}
+/* end off signin.html */
+
+/* for signup page */
+.sign-up{
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  height: 500px;
+  width: 800px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+  padding: 50px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: end;
+}
+.sign-up-form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#input{
+  padding: 8px;
+  margin: 8px;
+  border-style: solid;
+  height: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 300px;
+  padding: 16px;
+  height: 15px;
+}
+.title{
+  height: 50px;
+  position: relative;
+  top: 0px;
+  bottom: 100px;
+}
+.sign-logo{
+  position: absolute;
+  top: 100px;
+  height: 300px;
+  right: 450px;
+  margin-top: 60px;
+}
+/* end for signup page */
+
+/* profile */
+
+.todo-sec-one{
+  display: grid;
+  background-color: white;
+}
+.body{
+  font-family: arial;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.todo-sec-one{
+  font-size: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  position: relative;
+  width: 100px;
+  left: 100px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 2px 2px 0.1px rgba(0, 0, 0, 0.15);
+}
+.todo-form{
+  display: flex;
+  justify-content: center;
+}
+.todo-in{
+  margin-right: 8px;
+  height: 36px;
+  width: 300px;
+  border-radius: 40px;
+  padding-left: 10px;
+  border-style: none;
+  font: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.todo-sub{
+  width: 100px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  height: 36px;
+}
+.logout{
+  padding: 20px;
+  align-items: center;
+  padding-top: 10px;
+}
+table{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+th{
+  font-size: 40px;
+}
+td{
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 30vh;
+  padding: 20px;
+}
+.delete-btn{
+  margin-right: 100px;
+  
+}
+.del-task{
+  width: 100px;
+}
