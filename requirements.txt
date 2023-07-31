@@ -1,0 +1,8 @@
+MySQL Server or XAMPP
+flask run
+
+venv\Scripts\Activate
+pip intall flask 
+pip instal mysql-connector-python 
+
+database connect host, user, pass, databaseName
